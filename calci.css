@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    background-color: #e6ebf3;
+}
+#container{
+background-color: #5c5151;
+align-self: center;
+width: 280px;
+height: 400px;
+margin: auto ;
+align-items: center;
+justify-content: center;
+padding: 25px;
+border: 4px solid black;
+border-radius: 16px;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 3px;
+    width: 55px;
+    aspect-ratio: 1;
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: ubuntu;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 2px;
+    background-color: #5c5151;
+}
+.text-center{
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+h1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+input{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 220px;
+    height: 32px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    margin-top: 10PX;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+
+}
+.sp-operator{
+    background-color: rgb(19, 9, 9);
+    color: rgb(198, 141, 7);
+}
+.sp-operator:hover{
+    background-color: #a3aba4;
+    color: black;
+}
+.operator{
+    background-color: rgb(19, 9, 9);
+    color: rgb(198, 141, 7);
+}
+.operator:hover{
+    background-color: #f0f0e5;
+    color: black;
+}
+.operand{
+    background-color: rgb(19, 9, 9);
+    color: white;
+}
+.operand:hover{
+    background-color: #b2e1f0;
+    color: black;
+}
+
+.zero{
+    width: 115px;
+    height: 55px;
+    background-color: rgb(19, 9, 9);
+    color: white;
+}
+.zero:hover{
+    background-color: darkgoldenrod;
+}
+.equal{
+background-color: rgb(134, 97, 3);
+color: white;
+}
